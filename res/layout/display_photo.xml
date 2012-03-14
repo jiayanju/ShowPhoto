@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:gravity="center"
-        android:scaleType="fitCenter" />
+        android:scaleType="matrix" />
 	
 	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"

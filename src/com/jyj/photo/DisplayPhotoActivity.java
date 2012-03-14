@@ -164,6 +164,7 @@ public class DisplayPhotoActivity extends Activity {
     private void setUpView() {
 	mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 	mImageView = (ImageView) findViewById(R.id.imageview);
+	mImageView.setOnTouchListener(new MultiTouchListener());
     }
 
     /**
@@ -189,6 +190,8 @@ public class DisplayPhotoActivity extends Activity {
 			b = null;
 		    }
 		}
+	    } else {
+		postUpdateImage(null);
 	    }
 	}
     }

@@ -41,6 +41,9 @@ public class ShowPhotoActivity extends Activity {
 		mEditText.setText(text);
 	    }
 	}
+	
+	String testUrl = "http://www.ylfdc.cn/fyfile/200772239822081.jpg";
+	mEditText.setText(testUrl);
         
         mButton.setOnClickListener(mDownloadButtonOnClickListener);
     }
