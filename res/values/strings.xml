@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShowPhoto</string>
+    <string name="tip_txt">请输入要下载图片的网址（例如：http://www.ylfdc.cn/fyfile/200772239822081.jpg）</string>
+    <string name="download_button_txt">下载</string>
+    <string name="dialog_title">地址无效</string>
+    <string name="dialog_message">您所输入的网址为无效网址，请重新输入</string>
+</resources>

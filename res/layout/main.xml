@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:textAppearance="@android:style/TextAppearance.Medium"
+    		android:text="@string/tip_txt"/>
+    <EditText android:id="@+id/download_url"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:textAppearance="@android:style/TextAppearance.Medium"
+    		/>
+    <Button android:id="@+id/download_btn"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textAppearance="@android:style/TextAppearance.Medium"
+    		android:layout_gravity="right"
+    		android:text="@string/download_button_txt"/>
+</LinearLayout>
